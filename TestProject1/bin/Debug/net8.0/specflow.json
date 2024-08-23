@@ -1,0 +1,22 @@
+{
+    "stepAssemblies": [
+      {
+        "assembly": "TestProject1"
+      }
+    ],
+    "unitTestProvider": {
+      "name": "nunit"
+    },
+    "plugins": [
+      {
+        "name":"SpecFlow.Plus.LivingDocPlugin",
+        "parameters": {
+          "OutputPath": "TestProject1/Reports"
+        }
+      }
+    ],
+    "parallelize": {
+      "parallelScope": "Features"
+    }
+  }
+  
